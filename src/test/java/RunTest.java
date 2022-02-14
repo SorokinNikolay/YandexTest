@@ -25,10 +25,15 @@ public class RunTest {
         System.out.println("2");
         Assert.assertEquals("AW","A@W");
     }
-
-
-
-    public void main(String[] args) {
+    @Test
+    public void main() {
         open("https://demoqa.com/automation-practice-form");
     }
+
+    @Test
+    public void test4() {
+        System.out.println("4");
+        Assert.assertNull("Not null");
+    }
+
 }
